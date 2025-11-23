@@ -1,9 +1,9 @@
 import sys
-from math_utils import factorial, factorial_recursive, fibo, fibo_recursive
-from structures import Stack, Queue
-from generators import rand_int_array, nearly_sorted, reverse_sorted
-from benchmark import benchmark_sorts
-import sorts
+from src.math_utils import factorial, factorial_recursive, fibo, fibo_recursive
+from src.structures import Stack, Queue
+from src.generators import rand_int_array, nearly_sorted, reverse_sorted
+from src.benchmark import benchmark_sorts
+import src.sorts
 
 
 def run_benchmarks():

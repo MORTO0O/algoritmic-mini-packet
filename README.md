@@ -79,18 +79,17 @@
 1. **Клонирование репозитория:**
    ```bash
    git clone <ссылка_на_репозиторий>
-   cd <папка_проекта\src>
+   cd <папка_проекта>
    ```
 2. **Установка зависимостей:**
     ```bash
     pip install -r requirements.txt
     ```
-    
-2. **Запуск приложения:**
+3. **Запуск приложения:**
    ```bash
-   python main.py
+   python -m src.main
     ```
-3. **Запуск тестов(Unittest):**
+4. **Запуск тестов(Unittest):**
     ```bash
     python -m unittest tests.test -v # флаг -v для детализации вывода
     ```
